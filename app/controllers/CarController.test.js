@@ -184,10 +184,10 @@ describe("CarController", () => {
 
   describe("#handleListCars", () => {
     it("should call res.status(200) and res.json with list of task instances", async () => {
-      const name = "Honda Jazz";
+      const name = "Hello";
       const price = 100000;
-      const size = "Medium";
-      const image = "gambar.png";
+      const size = "Small";
+      const image = "contoh.png";
 
       const mockRequest = {
         query: {
@@ -258,8 +258,8 @@ describe("CarController", () => {
   });
   describe("#handleGetCar", () => {
     it("should call res.status(200) and res.json with car instance", async () => {
-      const name = "Honda";
-      const price = 300000;
+      const name = "Hello";
+      const price = 100000;
       const size = "small";
       const image = "contoh.png";
 
